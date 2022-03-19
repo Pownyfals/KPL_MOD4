@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using modul4_1302204081;
+
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+//jumlahTigaAngka(13, 22, 40);
+Penjumlahan<double> test = new Penjumlahan<double>();
+test.jumlahTigaAngka(13.0, 22.0, 40.0);
+
